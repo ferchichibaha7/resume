@@ -1,0 +1,39 @@
+/* ----------------------------------------------------------------------------------------------------- */
+/*  @ Import/write your custom styles here.
+/*  @ Styles from this file will override 'vendors.scss' and Fuse's base styles.
+/* ----------------------------------------------------------------------------------------------------- */
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('../assets/fonts/calibri/calibri-regular.ttf');
+  }
+
+  @font-face {
+    font-family: 'Calibri Bold';
+    src: url('../assets/fonts/calibri/calibri-bold.ttf');
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: 'calight';
+    src: url('../assets/fonts/calibri/calibril.ttf');
+    font-weight: light;
+  }
+
+
+
+
+
+  body {
+    font-family: 'calight', sans-serif !important; /* Apply Calibri to the entire body */
+  }
+
+  .cal{
+    font-family: 'Calibri', sans-serif !important; /* Apply Calibri to the entire body */
+
+  }
+
+  .calbold{
+    font-family: 'Calibri Bold', sans-serif !important; /* Apply Calibri to the entire body */
+
+  }

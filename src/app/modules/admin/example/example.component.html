@@ -1,0 +1,70 @@
+<div class="flex flex-col flex-auto min-w-0">
+    <fuse-card class="w-full min-h-full rounded-none flex-col px-12 md:px-32 lg:px-72 pt-8">
+<div class="top flex flex-col md:flex-row justify-center md:justify-between">
+    <div class="top_left order-2 md:order-1">
+        <div class="text-8xl  cal font-semibold leading-none mt-3 md:mt-8 text-center md:text-left">BAHA FERCHICHI</div>
+        <div class="text-4xl font-light tracking-tight leading-none mt:0 md:mt-8 mt-6 text-center md:text-left">FULL STACK WEB DEVELOPER</div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-y-2 gap-x-10 mt-8">
+            <div class="text-2xl font-light cal tracking-tight leading-6"><span class="calbold">Email : </span>bahaferchichi@outlook.com</div>
+            <div class="text-2xl font-light cal tracking-tight leading-6"><span class="calbold">Phone : </span>+216 29 204 755</div>
+            <div class="text-2xl font-light cal tracking-tight leading-6"><span class="calbold">Address : </span>Tunisia,Tunis</div>
+            <div class="text-2xl font-light cal tracking-tight leading-6"><span class="calbold">Github : </span>github.com/ferchichibaha7</div>
+            <div class="text-2xl font-light cal tracking-tight leading-6"><span class="calbold">LinkedIn : </span>linkedin.com/in/ferchichibaha7</div>
+            <div class="text-2xl font-light cal tracking-tight leading-6"><span class="calbold">Website : </span>www.bahaferchichi.com</div>
+
+        </div>
+    </div>
+    <div class="top_right order-1 md:order-2 flex justify-center items-center">
+        <div class="md:w-64 w-72 mb-8 flex justify-center items-center">
+            <img src="assets/images/pp.png">
+        </div>
+    </div>
+</div>
+
+<section class="skills">
+    <div (click)="show_skills= !show_skills" class="cursor-pointer text-4xl font-light tracking-tight leading-6 mt-8 mt-6 cal border-b-2 border-current border-solid pb-3 text-center md:text-left"> TECHNICAL SKILLS</div>
+    <ul *ngIf="show_skills" class="grid grid-cols-1 list-disc gap-y-2 gap-x-10 mt-4">
+        <li class="text-2xl font-light cal tracking-tight leading-6"><span class="calbold">Languages and frameworks : </span>Angular 2+, Node.js, Express js, Ruby on rails, TypeScript, JavaScript, ruby, java,
+            Python, D3.js, CSS3, HTML5, Bootstrap, SQL, NoSql, Elasticsserch</li>
+        <li class="text-2xl font-light cal tracking-tight leading-6"><span class="calbold">Databases : </span>MySql, MongoDB</li>
+        <li class="text-2xl font-light cal tracking-tight leading-6"><span class="calbold">Tools : </span>vscode, git</li>
+        <li class="text-2xl font-light cal tracking-tight leading-6"><span class="calbold">Operating System(OS) : </span>Linux, Windows</li>
+        <li class="text-2xl font-light cal tracking-tight leading-6"><span class="calbold">Devops : </span>Docker</li>
+        <li class="text-2xl font-light cal tracking-tight leading-6"><span class="calbold">Modeling : </span>UML</li>
+        <li class="text-2xl font-light cal tracking-tight leading-6"><span class="calbold">Ui/UX and Design : </span>Adobe XD / Figma, Adobe photoshop, Adobe illustrator</li>
+    </ul>
+</section>
+
+<section class="experience">
+    <div class="text-4xl font-light tracking-tight leading-6 mt-12 mt-6 cal border-b-2 border-current border-solid pb-3 text-center md:text-left">EXPERIENCE</div>
+    <div class="exp flex flex-col md:flex-row justify-center md:justify-between">
+        <div class="exp_left flex flex-row content-end">
+            <div class="cursor-pointer text-3xl  tracking-tight leading-6 mt-8 mt-6 calbold  pb-3 ">AXIANS CYBERSECURITY -</div>
+            <div class="cursor-pointer text-2xl  tracking-tight leading-6 mt-8 mt-6 ml-2 calbold  pb-3 "> Full Stack Web Developer ( REMOTE ) </div>
+        </div>
+        <div class="exp_right">
+            <div class="cursor-pointer text-2xl  tracking-tight leading-6 mt-8  calbold  pb-3 ">Jun 2021 - Present | TUNISIA</div>
+
+        </div>
+    </div>
+    <div  class="text-2xl font-light cal tracking-tight leading-6">Development of the "CERT Axians IT" platform which offers alert, information, supervision, and analysis services to protect against computer attacks.</div>
+    <div class="px-18">
+        <div class="text-2xl  tracking-tight leading-6 calbold mt-6  pb-3">Back-end level Interventions</div>
+        <ul  class="px-4 grid grid-cols-1 list-disc gap-y-2 gap-x-10 ">
+            <li class="text-2xl font-light cal tracking-tight leading-6">Vulnerabilities Dashboard (Attacks's map, Last 10 attacks, Attacks by country, type and source … )</li>
+            <li class="text-2xl font-light cal tracking-tight leading-6">Automated malware analysis module with Cuckoo Sandbox.</li>
+            <li class="text-2xl font-light cal tracking-tight leading-6">Threat intelligence module.</li>
+            <li class="text-2xl font-light cal tracking-tight leading-6">Python scripts for collecting data from multiple resources(AlienVault, Shodan, VirusTotal...</li>
+            <li class="text-2xl font-light cal tracking-tight leading-6">PDF conversion module with Prawn gem.</li>
+            <li class="text-2xl font-light cal tracking-tight leading-6">Automation module for sending emails (Cron).</li>
+            <li class="text-2xl font-light cal tracking-tight leading-6">Export threat intelligence IOC (Indicator of compromise) out of our database in multiple formats.</li>
+            <li class="text-2xl font-light cal tracking-tight leading-6">Elasticsearch Integration.</li>
+            <li class="text-2xl font-light cal tracking-tight leading-6">Fixing bug.</li>
+
+        </ul>
+    </div>
+</section>
+
+
+    </fuse-card>
+</div>
